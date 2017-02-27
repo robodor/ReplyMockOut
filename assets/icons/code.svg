@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="25px" viewBox="0 0 25 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>code</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="code">
+            <g id="ic_code_black_24px-(1)">
+                <g id="Group">
+                    <polygon id="Shape" points="0 0 25 0 25 25 0 25"></polygon>
+                    <path d="M9.79166667,17.2916667 L5,12.5 L9.79166667,7.70833333 L8.33333333,6.25 L2.08333333,12.5 L8.33333333,18.75 L9.79166667,17.2916667 Z M15.2083333,17.2916667 L20,12.5 L15.2083333,7.70833333 L16.6666667,6.25 L22.9166667,12.5 L16.6666667,18.75 L15.2083333,17.2916667 L15.2083333,17.2916667 Z" id="Shape" fill="#757575" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>assets_Icon_facebook</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="footerDesktop" transform="translate(-1740.000000, -12.000000)">
+            <g id="social" transform="translate(1596.000000, 12.000000)">
+                <g id="assets_Icon_facebook" transform="translate(144.000000, 0.000000)">
+                    <g>
+                        <path d="M20,0 L4,0 C1.790861,0 0,1.790861 0,4 L0,20 C0,22.209139 1.790861,24 4,24 L20,24 C22.209139,24 24,22.209139 24,20 L24,4 C24,1.790861 22.209139,0 20,0 L20,0 Z" id="_Compound_Path_-path" fill="#FFFFFF"></path>
+                        <g id="Layer_1" fill="#5D5E5E">
+                            <path d="M20,0 L4,0 C1.790861,0 0,1.790861 0,4 L0,20 C0,22.209139 1.790861,24 4,24 L20,24 C22.209139,24 24,22.209139 24,20 L24,4 C24,1.790861 22.209139,0 20,0 L20,0 Z M16.44,6.61 L14.44,6.61 C13.8877153,6.61 13.44,7.05771525 13.44,7.61 L13.44,10 L16.1,10 L15.76,12.73 L13.37,12.73 L13.37,20.59 L10.29,20.59 L10.29,12.76 L7.56,12.76 L7.56,10 L10.29,10 L10.29,7.41 C10.2897559,6.45975862 10.6726272,5.5495494 11.3520352,4.88519749 C12.0314433,4.22084558 12.9500026,3.85846475 13.9,3.88 L16.44,3.88 L16.44,6.61 L16.44,6.61 Z" id="_Compound_Path_"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

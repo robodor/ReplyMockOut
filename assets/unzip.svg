@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="709px" height="535px" viewBox="0 0 709 535" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>unzip</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#000000" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#000000" stop-opacity="0" offset="95%"></stop>
+            <stop stop-color="#000000" stop-opacity="0.04" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#FFFFFF" stop-opacity="0.8" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.4" offset="4.9360058%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="20%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-3" x="0" y="0" width="661" height="463"></rect>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="24" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="12" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.3 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="12" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter2" in2="SourceAlpha" operator="out" result="shadowBlurOuter2"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.22 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+            </feMerge>
+        </filter>
+        <mask id="mask-5" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="661" height="463" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="661" height="463" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <path d="M65.7008798,0.746855761 L65.7008798,0 L0.0517202272,0 L0.0517202272,151 L108,151 L108,44.9258352 L107.160232,44.9258352 L65.7008798,0.746855761 Z" id="path-7"></path>
+        <mask id="mask-8" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="107.94828" height="151" fill="white">
+            <use xlink:href="#path-7"></use>
+        </mask>
+        <polygon id="path-9" points="108 0 108 45.8206897 65 0"></polygon>
+        <mask id="mask-10" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="43" height="45.8206897" fill="white">
+            <use xlink:href="#path-9"></use>
+        </mask>
+        <polygon id="path-11" points="180.946117 22 175.053953 145 6.94604662 145 1.24549801 26 0 0 71.663786 0 83.0040303 22"></polygon>
+        <mask id="mask-12" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="180.946117" height="145" fill="white">
+            <use xlink:href="#path-11"></use>
+        </mask>
+        <path d="M82.9103429,22 L182,22 L182,145 L0,145 L0,26 L0,0 L71.663786,0 L82.9103429,22 Z" id="path-13"></path>
+        <mask id="mask-14" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="182" height="145" fill="white">
+            <use xlink:href="#path-13"></use>
+        </mask>
+    </defs>
+    <g id="Code" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Code-2.1-popup" transform="translate(-286.000000, -170.000000)">
+            <g id="unzip" transform="translate(310.000000, 194.000000)">
+                <g id="popup-bg">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                    <use stroke="url(#linearGradient-1)" mask="url(#mask-5)" stroke-width="1" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                    <use stroke="url(#linearGradient-2)" mask="url(#mask-6)" stroke-width="1" xlink:href="#path-3"></use>
+                </g>
+                <text id="Don’t-foget-to-extra" font-family="Roboto-Bold, Roboto" font-size="24" font-weight="bold" line-spacing="32" letter-spacing="0.250434756" fill="#4D4D4D">
+                    <tspan x="169.706369" y="297">Don’t foget to extrat ALL files</tspan>
+                    <tspan x="64.8133495" y="329" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" letter-spacing="0.166956514">Pro tip: before uploading the files, you should </tspan>
+                    <tspan x="395.316556" y="329" font-size="16" letter-spacing="0.166956514">select port and board</tspan>
+                    <tspan x="551.869517" y="329" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" letter-spacing="0.166956514"> in the </tspan>
+                    <tspan x="287.941114" y="361" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" letter-spacing="0.166956514">Arduino IDE</tspan>
+                </text>
+                <g id="graphic" transform="translate(110.000000, 70.000000)">
+                    <text id="Extract-all" font-family="Roboto-Bold, Roboto" font-size="16" font-weight="bold" letter-spacing="0.20869565" fill="#565656">
+                        <tspan x="140" y="72">Extract all</tspan>
+                    </text>
+                    <g id="zip_icon">
+                        <use id="Combined-Shape" stroke="#404040" mask="url(#mask-8)" stroke-width="4" fill="#D8D8D8" xlink:href="#path-7"></use>
+                        <use id="Triangle" stroke="#404040" mask="url(#mask-10)" stroke-width="4" xlink:href="#path-9"></use>
+                        <text id="Firmware.zip" font-family="Roboto-Medium, Roboto" font-size="16" font-weight="400" letter-spacing="0.20869565" fill="#565656">
+                            <tspan x="7" y="95.6666667">Firmware.zip</tspan>
+                        </text>
+                    </g>
+                    <g id="Group-2-Copy" transform="translate(259.000000, 0.000000)" stroke="#404040" stroke-width="4">
+                        <use id="Combined-Shape" mask="url(#mask-12)" xlink:href="#path-11"></use>
+                    </g>
+                    <g id="Group-2" transform="translate(252.000000, 6.000000)">
+                        <use id="Combined-Shape" stroke="#404040" mask="url(#mask-14)" stroke-width="4" fill="#D8D8D8" xlink:href="#path-13"></use>
+                        <text id="Frimware" font-family="Roboto-Medium, Roboto" font-size="16" font-weight="400" letter-spacing="0.20869565" fill="#565656">
+                            <tspan x="46" y="92">Frimware</tspan>
+                        </text>
+                    </g>
+                    <path d="M131,79 L228.157501,79" id="Path-2" stroke="#979797" fill="#979797"></path>
+                    <path id="Path-2-decoration-1" d="M228.157501,79 L217.357501,76 L217.357501,82 L228.157501,79 Z" stroke="#979797" fill="#979797"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

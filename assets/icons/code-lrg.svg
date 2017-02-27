@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="39px" height="25px" viewBox="0 0 39 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>E807B3A5-FF4E-46D5-ABA6-F9F06651EAC5</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M13.875,20.7583333 L5.25,11.75 L13.875,2.74166667 L11.25,0 L0,11.75 L11.25,23.5 L13.875,20.7583333 Z M23.625,20.7583333 L32.25,11.75 L23.625,2.74166667 L26.25,0 L37.5,11.75 L26.25,23.5 L23.625,20.7583333 L23.625,20.7583333 Z" id="path-1"></path>
+    </defs>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="welcome" transform="translate(-480.000000, -368.000000)">
+          
+            <g id="content" transform="translate(394.000000, 66.000000)">
+                <g id="bom-copy-3" transform="translate(61.000000, 269.000000)">
+                    <g id="bom">
+                        <g id="Sidemenu/icons/Code" transform="translate(22.000000, 22.000000)">
+                            <g id="ic_code_black_24px" transform="translate(3.750000, 11.750000)">
+                                <g id="Group">
+                                    <g id="Rectangle-2">
+                                        <mask id="mask-2" fill="white">
+                                            <use xlink:href="#path-1"></use>
+                                        </mask>
+                                        <use id="Mask" fill="#FFFFFF" xlink:href="#path-1"></use>
+                                        <g id="Sidemenu/icon_bg/grey" mask="url(#mask-2)" fill="#616161">
+                                            <g transform="translate(-3.750000, -11.750000)" id="icon_bg">
+                                                <rect x="0" y="0" width="45" height="47"></rect>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                        <circle id="Oval-2" stroke="#979797" stroke-width="2" cx="45" cy="45" r="45"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

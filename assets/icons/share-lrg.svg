@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="39px" height="43px" viewBox="0 0 39 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>B7E2A2A3-A9A1-4556-9248-DC0C84EEE101</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M35.5,32.3935743 C33.8533333,32.3935743 32.38,33.0411647 31.2533333,34.0557229 L15.805,25.0973896 C15.9133333,24.6009036 16,24.1044177 16,23.5863454 C16,23.0682731 15.9133333,22.5717871 15.805,22.0753012 L31.08,13.2033133 C32.25,14.2826305 33.7883333,14.9518072 35.5,14.9518072 C39.0966667,14.9518072 42,12.0592369 42,8.47590361 C42,4.89257028 39.0966667,2 35.5,2 C31.9033333,2 29,4.89257028 29,8.47590361 C29,8.9939759 29.0866667,9.49046185 29.195,9.98694779 L13.92,18.8589357 C12.75,17.7796185 11.2116667,17.1104418 9.5,17.1104418 C5.90333333,17.1104418 3,20.003012 3,23.5863454 C3,27.1696787 5.90333333,30.062249 9.5,30.062249 C11.2116667,30.062249 12.75,29.3930723 13.92,28.313755 L29.3466667,37.2936747 C29.2383333,37.746988 29.1733333,38.2218876 29.1733333,38.6967871 C29.1733333,42.1721888 32.0116667,45 35.5,45 C38.9883333,45 41.8266667,42.1721888 41.8266667,38.6967871 C41.8266667,35.2213855 38.9883333,32.3935743 35.5,32.3935743 L35.5,32.3935743 Z" id="path-1"></path>
+    </defs>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="welcome" transform="translate(-480.000000, -635.000000)">
+           
+            <g id="content" transform="translate(394.000000, 66.000000)">
+                <g id="bom-copy-5" transform="translate(61.000000, 545.000000)">
+                    <g id="bom">
+                        <g id="Sidemenu/icons/share" transform="translate(22.000000, 22.000000)">
+                            <g id="ic_wifi_black_24px">
+                                <g id="Group">
+                                    <polygon id="Shape" points="0 0 45 0 45 47 0 47"></polygon>
+                                    <mask id="mask-2" fill="white">
+                                        <use xlink:href="#path-1"></use>
+                                    </mask>
+                                    <use id="Shape" fill="#000000" xlink:href="#path-1"></use>
+                                    <g id="Sidemenu/icon_bg/grey" mask="url(#mask-2)" fill="#616161">
+                                        <rect id="icon_bg" x="0" y="0" width="45" height="47"></rect>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                        <ellipse id="Oval-2" stroke="#979797" stroke-width="2" cx="45" cy="45" rx="45" ry="45"></ellipse>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

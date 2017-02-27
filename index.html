@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta  name = "viewport" content = "initial-scale = 1.0, maximum-scale = 1.0, user-scalable = no">
+ 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+ 	<link rel="shortcut icon" href="assets/icons/favicon.png" />
+ 	
+	<script src="libs/webix/codebase/webix.js" type="text/javascript" charset="utf-8"></script>
+	
+	<link rel="stylesheet" href="libs/webix/codebase/webix.css" type="text/css" media="screen" charset="utf-8">
+	<link rel="stylesheet" href="style.css" type="text/css">
+	<title>circuito.io</title>
+
+	
+</head>
+<body>
+	
+	<div id = "webixContentDivs">
+
+		<div id="codeHelpDiv" style="display: none;">
+			<div class="code-img-container"></div>
+			<div class="main-panel-text">
+				<center><h2>Code time!</h2></center>
+				<div class= "code-list card card-2">
+					<h4>follow these steps:</h4>
+					<ol>
+						<li>Download Firmware.zip</li>
+						<li>Extract all files to new folder ("Firmware")</li>
+						<li>Open <b>"firmware.ino"</b> using Arduino IDE (You can download it <a href="https://www.arduino.cc/en/main/software" target="_blank">here</a>)</li>
+						<li>Make sure the board is connected to your computer via USB</li>
+						<li>In Arduino IDE- don't forget to select the correct <b>Port</b> and <b>Board</b> in the tool menu.</li>
+						<li>Upload "Firmware.ino" to your board.</li>
+						<p>Great! now you can move on to the Build section.</p>
+					</ol>
+					<button type="button" onclick="downloadClick()" class="webix_img_btn webix_el_button webix_el_button flat-btn" style="line-height:32px;">
+						<span class="webix_icon_btn fa-download" style="max-width:32px;"></span>
+						Download Firmware.zip
+					</button>
+				</div>
+				<p>The firmware.zip contains all the libraries and sample code that will help you understand
+				how to read values from your sensors and operate your actuators through the controller.</p>
+				<p>It's a sample which you'll need to adjust to your needs.</p>
+			</div>
+		</div>
+		
+		<div id="partsViewerDiv" style="display: none;">
+			<center><img src="assets/parts.png"></img></center>
+			<center>
+				<h2>Hi There! This is the inventory of parts for your circuit.</h2>
+				<p>The list includes components you selected together with peripheral components such as capacitors, transistors etc. that you need. Click on the parts for more details. Have all the components? Move on to the Code section.</p>
+				<button class ="flat-btn" style="padding:0;" onclick="$$('sidemenu').select('code')">Go to Code</button>
+			</center>
+		</div>
+		
+		
+		<div id="homeDiv" style="display: none;" >
+			<div class="html-container">
+				<div class= "html-title">
+					<h2>Welcome to your circuito.io project</h2>
+					<!-- <h4>Here are all the things you need for building the circuit you submitted</h4> -->
+				</div>
+				<div class="start-section card card-1">
+					<div class="start-image-container">
+						<span class = "start-section-img"><i class="fa fa-shopping-cart fa-3x" aria-hidden="true"></i></span>
+					</div>
+					<div class="start-section-content">
+						<h3>BoM (Bill of Materials)</h3>
+						<p>The BoM is where you'll find all the components you need to get in order to build the project.</p>
+						<p class ="flat-btn" style="padding:0;" onclick="$$('sidemenu').select('parts')">Go to BOM</p>
+					</div>
+				</div>
+				<div class="start-section card card-1">
+					<div class="start-image-container">
+						<span class = "start-section-img"><i class="fa fa-code fa-3x" aria-hidden="true"></i></span>
+					</div>
+					<div class="start-section-content">
+						<h3>Code</h3>
+						<p>Got the parts? great, now you can download the sample code and upload it to the controller, you can customize the code as you wish.</p>
+						<p class ="flat-btn" style="padding:0;" onclick="$$('sidemenu').select('code')">Go to Code</p>
+					</div>
+				</div>
+				<div class="start-section card card-1">
+					<div class="start-image-container">
+						<span class = "start-section-img"><i class="fa fa-wrench fa-3x" aria-hidden="true"></i></span>
+					</div>
+					<div class="start-section-content">
+						<h3>Build</h3>
+						<p>Here you'll find a step-by-step guide, explaining how to wire the circuit.</p>
+						<p class ="flat-btn" style="padding:0;" onclick="$$('sidemenu').select('build')">Go to Build</p>
+					</div>
+				</div>
+				<div class="start-section card card-1" id="iotHomeCard">
+					<div class="start-image-container">
+						<span class = "start-section-img"><i class="fa fa-wifi fa-3x" aria-hidden="true"></i></span>
+					</div>
+					<div class="start-section-content">
+						<h3>IoT</h3>
+						<p>A link to your Internet of Things dashboard</p>
+						<p class ="flat-btn" style="padding:0;" onclick="$$('sidemenu').select('iot')">Go to IoT</p>
+					</div>
+				</div>
+				<div class="start-section card card-1">
+					<div class="start-image-container">
+						<span class = "start-section-img"><i class="fa fa-share-alt fa-3x" aria-hidden="true"></i></span>
+					</div>
+					<div class="start-section-content">
+						<h3>Share</h3>
+						<p>Finished building? share your project's circuito</p>
+						<p class ="flat-btn" style="padding:0;" onclick="$$('sidemenu').select('share')">Go to Share</p>
+					</div>
+				</div>
+				<div class="start-title">
+					<h4>Ready to start? click on the side menu and see all the goodies</h4>
+				</div>
+				<div class="start-section-content disclaimer card card-1">
+					<h3>Terms</h3>
+					<p>By using the services made available at Circuito.io you agree to our <a href="http://www.circuito.io/terms">Terms of Use</a>.</p>
+					<h3>Licenses</h3>
+					<p>Firmware code libraries provided by us in the .zip file which we have made available for download on this page are governed by separate license terms. This means you may only use these libraries in accordance with those license terms.</p>
+					<p>For each library included in the .zip file which is governed by separate license terms, we have made that library's license terms and other information required by the license available in a corresponding ".txt" file (which will have the same file name as that library with the addition of the word "license").</p>
+					<p>The schematics, breadboard view and .fzz files for editing were created using Fritzing and are distributed under the <a href="https://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution ShareAlike 3.0 Unported (CC BY-SA 3.0) license</a>.</p>
+					<p>All other content and materials provided by us, are the sole and exclusive property of Roboplan Technologies Ltd. and you may use them in accordance with our <a href="http://www.circuito.io/terms">Terms of Use</a>, including without limitation, Sections 6 (Restrictions) and 9 (Intellectual Property Rights).</p>
+					<h3>IoT Service</h3>
+					<p>The code enables your input devices to post messages to a message store on <a href="http://dweet.io/">Dweet.io</a>, and your outputs to be controlled remotely. Once your Freeboard is created, messages sent by your device to Dweet.io will also be sent to your Freeboard.</p>
+					<p>See how the integration into our IoT Service works by reviewing the code sample we provided - you can play and modify the code sample. Note that any change you make in how you post to Dweet.io may have an effect on the Freeboard, and may cause the IoT Service to improperly function.</p>
+					<p>Data which you or your device "dweets" will be publicly viewable on dweet.io as well as on Freeboard, and may be edited by anyone, unless and until you purchase a private plan from Dweet and apply the plan to your device's feeds on Dweet and Freeboard. Even if you create private plans for both Dweet and Freeboard, data previously sent may remain publicly available.</p>
+					<p>Prior to using Dweet or Freeboard, we recommend taking a look at their respective websites, plans, features, terms of use and privacy policies all of which can be found at their websites at <a href="http://dweet.io/">Dweet.io</a> and <a href="http://freeboard.io/">Freeboard.io</a> (Freeboard does not post terms of use or a privacy policy).</p>
+					<h3>Disclaimer</h3>
+					<p>As further described in our <a href="http://www.circuito.io/terms">Terms of Use</a>, all content is provided by us "as is", with no warranties or guaranties, express or implied, and without any technical support from us.
+					Any separate or third party license terms do not derogate from, or limit the application of, the disclaimers of warranties, notices, warnings, or the limitations of liability set forth in the <a href="http://www.circuito.io/terms">Terms of Use</a>.</p>
+				</div>
+			</div>
+		</div>
+		
+		<div id="shareDiv" style="display: none;">
+			<div class="html-container">
+				<div class="html-title">
+					<h2>Congratulations! you're done.</h2>
+				</div>
+				<div class="share-form card card-1">
+					<h2>Tell the world about your new project!</h2>
+					<div class="copy-url">
+						<p>share on</p>
+						<button class="share-fb" label="Share" onclick="fbshare()"><img src="assets/footer/facebook.svg"></button>
+						<button class="share-fb" ><a href="https://www.hackster.io/circuito-io"><img src="assets/footer/hackster.svg"></a></button>
+					</div>
+					<p>Or jsut copy the circuito url:</p>
+					<div class="copy-url">
+						<input type="text" id="share-url-text">
+						<!-- <button class="main-cta-btn">Copy</button> -->
+					</div>
+				</div>
+				<div class="feedback">
+					<p>Tell us what you think about circuito <button class="flat-btn" onclick = "window.open('https://circuito.typeform.com/to/pfKypx','_blank')">Leave a feedback</button></p>
+				</div>
+			</div>
+		</div>
+		
+		<div id="codeDiv">
+			<div class="codeContainer">
+				<div class="modal">
+					<div class="modal-content">
+						<h4>This is a preview, to use the code please download and extract it</h4>
+						<button type="button" onclick="downloadClick()" class="webix_img_btn webix_el_button webix_el_button flat-btn" style="line-height:32px;">
+							<span class="webix_icon_btn fa-download" style="max-width:32px;"></span>
+							Download Firmware.zip
+						</button>
+					</div>
+				</div>
+				<div id="editorDiv" style="height: 100%; width: 100%; position:absolute; top:0;"></div>
+			</div>
+		</div>
+		
+		<div id="iotDiv" style="display: none;"> 
+			<div class="html-container">
+				<div class= "html-title">
+			   		<h2>IoT - Controlling Your Project</h2>
+			    	<h4>Connecting to the internet (of things..)</h4>
+			    </div>
+			    <div class="gauge-pane card card-1">
+			        <div class="gauge">
+			            <svg viewBox="0 0 200 200" height="100%" version="1.1" width="100%" xmlns="http://www.w3.org/2000/svg" style="overflow: hidden; position: relative;"><desc style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Created with Rapha�l 2.1.0</desc><defs style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><filter id="gauge-0-inner-shadow"><feOffset dx="0" dy="3"></feOffset><feGaussianBlur result="offset-blur" stdDeviation="5"></feGaussianBlur><feComposite operator="out" in="SourceGraphic" in2="offset-blur" result="inverse"></feComposite><feFlood flood-color="black" flood-opacity="0.2" result="color"></feFlood><feComposite operator="in" in="color" in2="inverse" result="shadow"></feComposite><feComposite operator="over" in="shadow" in2="SourceGraphic"></feComposite></filter></defs><path fill="#edebeb" stroke="none" d="M50,128L20,128A80,80,0,0,1,180,128L150,128A50,50,0,0,0,50,128Z" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></path><path fill="#fc5f00" stroke="none" d="M50,128L20,128A80,80,0,0,1,158.73954665436918,73.68917549107556L136.71221665898074,94.05573468192223A50,50,0,0,0,50,128Z" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></path><text x="100" y="114.28571428571429" text-anchor="middle" font="10px &quot;Arial&quot;" stroke="none" fill="#d3d4d4" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-style: normal; font-variant: normal; font-weight: bold; font-stretch: normal; font-size: 25px; line-height: normal; font-family: Arial; fill-opacity: 1;" font-size="25px" font-weight="bold" font-family="Arial" fill-opacity="1"><tspan style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);" dy="8.504464285714292">780</tspan></text><text x="100" y="132.78571428571428" text-anchor="middle" font="10px &quot;Arial&quot;" stroke="none" fill="#b3b3b3" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-style: normal; font-variant: normal; font-weight: normal; font-stretch: normal; font-size: 10px; line-height: normal; font-family: Arial; fill-opacity: 1;" font-size="10px" font-weight="normal" font-family="Arial" fill-opacity="1"><tspan style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);" dy="3.5044642857142776">Moisture</tspan></text><text x="100" y="132.78571428571428" text-anchor="middle" font="10px &quot;Arial&quot;" stroke="none" fill="#b3b3b3" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-style: normal; font-variant: normal; font-weight: normal; font-stretch: normal; font-size: 10px; line-height: normal; font-family: Arial; fill-opacity: 1;" font-size="10px" font-weight="normal" font-family="Arial" fill-opacity="1"><tspan style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);" dy="132.78571428571428"></tspan></text><text x="35" y="141.99999999999997" text-anchor="middle" font="10px &quot;Arial&quot;" stroke="none" fill="#b3b3b3" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-style: normal; font-variant: normal; font-weight: normal; font-stretch: normal; font-size: 10px; line-height: normal; font-family: Arial; fill-opacity: 1;" font-size="10px" font-weight="normal" font-family="Arial" fill-opacity="1"><tspan style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);" dy="3.4999999999999716">0</tspan></text><text x="165" y="141.99999999999997" text-anchor="middle" font="10px &quot;Arial&quot;" stroke="none" fill="#b3b3b3" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-style: normal; font-variant: normal; font-weight: normal; font-stretch: normal; font-size: 10px; line-height: normal; font-family: Arial; fill-opacity: 1;" font-size="10px" font-weight="normal" font-family="Arial" fill-opacity="1"><tspan style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);" dy="3.4999999999999716">1023</tspan></text></svg>
+			            </div>
+			            <div class="gauge">
+			            <svg viewBox="0 0 200 200" height="100%" version="1.1" width="100%" xmlns="http://www.w3.org/2000/svg" style="overflow: hidden; position: relative;"><desc style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Created with Rapha�l 2.1.0</desc><defs style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><filter id="gauge-1-inner-shadow"><feOffset dx="0" dy="3"></feOffset><feGaussianBlur result="offset-blur" stdDeviation="5"></feGaussianBlur><feComposite operator="out" in="SourceGraphic" in2="offset-blur" result="inverse"></feComposite><feFlood flood-color="black" flood-opacity="0.2" result="color"></feFlood><feComposite operator="in" in="color" in2="inverse" result="shadow"></feComposite><feComposite operator="over" in="shadow" in2="SourceGraphic"></feComposite></filter></defs><path fill="#edebeb" stroke="none" d="M50,128L20,128A80,80,0,0,1,180,128L150,128A50,50,0,0,0,50,128Z" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></path><path fill="#eec903" stroke="none" d="M50,128L20,128A80,80,0,0,1,84.11276266834035,49.59339511260853L90.07047666771271,78.99587194538033A50,50,0,0,0,50,128Z" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></path><text x="100" y="114.28571428571429" text-anchor="middle" font="10px &quot;Arial&quot;" stroke="none" fill="#d3d4d4" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-style: normal; font-variant: normal; font-weight: bold; font-stretch: normal; font-size: 25px; line-height: normal; font-family: Arial; fill-opacity: 1;" font-size="25px" font-weight="bold" font-family="Arial" fill-opacity="1"><tspan style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);" dy="8.504464285714292">23</tspan></text><text x="100" y="132.78571428571428" text-anchor="middle" font="10px &quot;Arial&quot;" stroke="none" fill="#b3b3b3" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-style: normal; font-variant: normal; font-weight: normal; font-stretch: normal; font-size: 10px; line-height: normal; font-family: Arial; fill-opacity: 1;" font-size="10px" font-weight="normal" font-family="Arial" fill-opacity="1"><tspan style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);" dy="3.5044642857142776">Temperature</tspan></text><text x="35" y="141.99999999999997" text-anchor="middle" font="10px &quot;Arial&quot;" stroke="none" fill="#b3b3b3" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-style: normal; font-variant: normal; font-weight: normal; font-stretch: normal; font-size: 10px; line-height: normal; font-family: Arial; fill-opacity: 1;" font-size="10px" font-weight="normal" font-family="Arial" fill-opacity="1"><tspan style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);" dy="3.4999999999999716">-25</tspan></text><text x="165" y="141.99999999999997" text-anchor="middle" font="10px &quot;Arial&quot;" stroke="none" fill="#b3b3b3" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-style: normal; font-variant: normal; font-weight: normal; font-stretch: normal; font-size: 10px; line-height: normal; font-family: Arial; fill-opacity: 1;" font-size="10px" font-weight="normal" font-family="Arial" fill-opacity="1"><tspan style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);" dy="3.4999999999999716">+85</tspan></text></svg>
+			            </div>
+			            <div class="gauge" id="gauge-2"><svg viewBox="0 0 200 200" height="100%" version="1.1" width="100%" xmlns="http://www.w3.org/2000/svg" style="overflow: hidden; position: relative; left: -0.5px;"><desc style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Created with Rapha�l 2.1.0</desc><defs style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><filter id="gauge-2-inner-shadow"><feOffset dx="0" dy="3"></feOffset><feGaussianBlur result="offset-blur" stdDeviation="5"></feGaussianBlur><feComposite operator="out" in="SourceGraphic" in2="offset-blur" result="inverse"></feComposite><feFlood flood-color="black" flood-opacity="0.2" result="color"></feFlood><feComposite operator="in" in="color" in2="inverse" result="shadow"></feComposite><feComposite operator="over" in="shadow" in2="SourceGraphic"></feComposite></filter></defs><path fill="#edebeb" stroke="none" d="M50,128L20,128A80,80,0,0,1,180,128L150,128A50,50,0,0,0,50,128Z" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></path><path fill="#e7cb03" stroke="none" d="M50,128L20,128A80,80,0,0,1,73.13918874524796,52.64419850644154L83.21199296577998,80.90262406652596A50,50,0,0,0,50,128Z" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></path><text x="100" y="114.28571428571429" text-anchor="middle" font="10px &quot;Arial&quot;" stroke="none" fill="#d3d4d4" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-style: normal; font-variant: normal; font-weight: bold; font-stretch: normal; font-size: 25px; line-height: normal; font-family: Arial; fill-opacity: 1;" font-size="25px" font-weight="bold" font-family="Arial" fill-opacity="1"><tspan style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);" dy="9.004464285714292">400</tspan></text><text x="100" y="132.78571428571428" text-anchor="middle" font="10px &quot;Arial&quot;" stroke="none" fill="#b3b3b3" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-style: normal; font-variant: normal; font-weight: normal; font-stretch: normal; font-size: 10px; line-height: normal; font-family: Arial; fill-opacity: 1;" font-size="10px" font-weight="normal" font-family="Arial" fill-opacity="1"><tspan style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);" dy="3.5044642857142776">Light</tspan></text><text x="100" y="132.78571428571428" text-anchor="middle" font="10px &quot;Arial&quot;" stroke="none" fill="#b3b3b3" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-style: normal; font-variant: normal; font-weight: normal; font-stretch: normal; font-size: 10px; line-height: normal; font-family: Arial; fill-opacity: 1;" font-size="10px" font-weight="normal" font-family="Arial" fill-opacity="1"><tspan style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);" dy="132.78571428571428"></tspan></text><text x="35" y="141.99999999999997" text-anchor="middle" font="10px &quot;Arial&quot;" stroke="none" fill="#b3b3b3" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-style: normal; font-variant: normal; font-weight: normal; font-stretch: normal; font-size: 10px; line-height: normal; font-family: Arial; fill-opacity: 1;" font-size="10px" font-weight="normal" font-family="Arial" fill-opacity="1"><tspan style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);" dy="3.4999999999999716">0</tspan></text><text x="165" y="141.99999999999997" text-anchor="middle" font="10px &quot;Arial&quot;" stroke="none" fill="#b3b3b3" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-style: normal; font-variant: normal; font-weight: normal; font-stretch: normal; font-size: 10px; line-height: normal; font-family: Arial; fill-opacity: 1;" font-size="10px" font-weight="normal" font-family="Arial" fill-opacity="1"><tspan style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);" dy="3.4999999999999716">1023</tspan></text></svg></div>
+			    </div>
+			    <div>
+			        <p>We did some work to show you how you can communicate with your internet-connected circuit using our IoT Service and integrate your circuit data into <a href="http://www.dweet.io/">Dweet.io</a>and <a href="http://www.freeboard.io/">Freeboard.io</a>.</p>
+					<p>The code provided above allows you to connect your project to our IoT Service and to Dweet.io and Freeboard,io. Use of the code with your project is subject to our <a href="https://circuito.io/terms">Terms of Service</a> and <a href="https://www.circuito.io/privacy">Privacy Policy</a>.</p>
+					<p>Please see the important notes in the start section for more information.</p>
+			    </div>
+		
+			    <form id="fb_create_form" action="https://freeboard.io/board/new" method="post" target="_blank">
+			        <input type="hidden" id="fb_board_name" name="board_name" value="">
+			        <input type="hidden" id="fb_board_config" name="board_config" value="">
+			        <button type="submit" class="main-cta-btn" onclick="trackDashboard()">Create Your Dashboard</button>
+			    </form>
+			</div>
+		</div>
+	</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.2.6/ace.js"></script>
+<script src="libs/svg-pan-zoom.js" type="text/javascript" charset="utf-8"></script>
+<script src="libs/download.js"></script>
+<script src="htmlviewer.js" type="text/javascript"></script>
+<script src="facebook.js" type="text/javascript"></script>
+<script src="data.js" type="text/javascript"></script>
+<script src="build.js" type="text/javascript"></script>
+<script src="code.js" type="text/javascript"></script>
+<script src="iot.js" type="text/javascript"></script>
+<script src="parts.js" type="text/javascript"></script>
+<script src="share.js" type="text/javascript"></script>
+<script src="reply.js" type="text/javascript"></script>
+
+
+<div id="basediv"></div>
+
+
+</body>
+</html>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>assets_Icon_youtube</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="footerDesktop" transform="translate(-1692.000000, -12.000000)">
+            <g id="social" transform="translate(1596.000000, 12.000000)">
+                <g id="assets_Icon_youtube" transform="translate(96.000000, 0.000000)">
+                    <g>
+                        <path d="M20,0 L4,0 C1.790861,0 0,1.790861 0,4 L0,20 C0,22.209139 1.790861,24 4,24 L20,24 C22.209139,24 24,22.209139 24,20 L24,4 C24,1.790861 22.209139,0 20,0 L20,0 Z" id="_Compound_Path_-path" fill="#FFFFFF"></path>
+                        <g id="Layer_1" fill="#5D5E5E">
+                            <path d="M20,0 L4,0 C1.790861,0 0,1.790861 0,4 L0,20 C0,22.209139 1.790861,24 4,24 L20,24 C22.209139,24 24,22.209139 24,20 L24,4 C24,1.790861 22.209139,0 20,0 L20,0 Z M8.7,16.72 L8.7,7.78 L17.3,12.27 L8.7,16.72 Z" id="_Compound_Path_"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
